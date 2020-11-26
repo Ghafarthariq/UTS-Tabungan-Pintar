@@ -6,14 +6,14 @@ import java.text.SimpleDateFormat;
 import java.util.Scanner;
 public class Main {
        private DataTabunganPintarModel datatabunganModel=new DataTabunganPintarModel();
-       private  Scanner input=new Scanner(System.in);
-       private  DataPenggunaModel datapenggunaModel=new DataPenggunaModel();
+       private Scanner input=new Scanner(System.in);
+       private DataPenggunaModel datapenggunaModel=new DataPenggunaModel();
        private SimpleDateFormat sdf= new SimpleDateFormat("dd-MM-yyyy");
        private Calendar tgl = Calendar.getInstance();
        
-      public static void main(String[] args) {
-          Main Data= new Main();
-           int pil;
+       public static void main(String[] args) {
+        Main Data= new Main();
+        int pil;
         do{
         System.out.println("1.Daftar Akun");
         System.out.println("2.Login");

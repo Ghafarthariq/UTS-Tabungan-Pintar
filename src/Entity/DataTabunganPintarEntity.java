@@ -7,7 +7,7 @@ public class DataTabunganPintarEntity {
         this.target = target;
         this.menabung = menabung;
         this.sekalamenabung = sekalamenabung;
-    }
+    } 
 
     
     
